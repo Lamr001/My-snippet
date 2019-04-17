@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<div class="card">
+  <img src="${1}" class="card-img-top" alt="${2}">
+  <div class="card-body">
+    <h5 class="card-title">${2:Card title}</h5>
+    <p class="card-text">${3:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+    <a href="#" class="btn btn-primary">${4:Go somewhere}</a>
+  </div>
+</div>
+]]>
+    </content>
+    <tabTrigger>card</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

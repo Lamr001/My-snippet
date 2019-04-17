@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<nav class="navbar navbar-dark navbar-expand-md fixed-top text-white" id="navbar-scroll">
+        <div class="container"><a class="navbar-brand text-white m-2 m-md-0" href="#">${1}</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggler" aria-controls="nav-toggler" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="nav-toggler">
+            <ul class="navbar-nav nav-pills nav-fill ml-auto">
+              <li class="nav-item"><a class="nav-link text-white ml-1 pr-4 pl-4" href="">${2}</a></li>
+              ${3}
+            </ul>
+          </div>
+        </div>
+      </nav>
+]]>
+    </content>
+    <tabTrigger>navbar</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

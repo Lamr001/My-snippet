@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@media (${1:min-width: 790px}) {
+  ${2:selector} {
+    ${3:properties}
+    }
+}
+]]>
+    </content>
+    <tabTrigger>?media</tabTrigger>
+    <scope>source.css</scope>
+</snippet>

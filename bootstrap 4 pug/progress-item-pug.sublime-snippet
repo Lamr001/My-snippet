@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+.progress
+  .progress-bar(role='progressbar', aria-valuenow='${1:25}', aria-valuemin='${2:0}', aria-valuemax='${3:100}') ${4:25%}
+]]>
+    </content>
+    <tabTrigger>progress-item</tabTrigger>
+    <scope>text.pug</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:selector} {
+  ${2:properties}
+}
+]]>
+    </content>
+    <tabTrigger>?select</tabTrigger>
+    <scope>source.css</scope>
+</snippet>

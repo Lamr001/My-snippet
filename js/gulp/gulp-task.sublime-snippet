@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+function ${1:name-task}() {
+
+    return src("${2:src-path}")
+        .pipe(${3:plugin})
+        .pipe(dest("${4:output}"))
+        ${5:.pipe(sync.reload({stream:true}))}
+};
+    ]]>
+    </content>
+    <tabTrigger>task</tabTrigger>
+    <scope>source.js, source.gulpfile.js</scope>
+</snippet>

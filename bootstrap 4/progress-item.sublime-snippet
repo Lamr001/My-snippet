@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<div class="progress">
+  <div class="progress-bar" role="progressbar" " aria-valuenow="${1:25}" aria-valuemin="${2:0}" aria-valuemax="${3:100}">${4:25%}</div>
+</div>
+]]>
+    </content>
+    <tabTrigger>progress-item</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

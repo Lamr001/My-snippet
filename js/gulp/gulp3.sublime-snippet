@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[
+
+var gulp    = require("gulp"),
+    sass    = require("gulp-sass"),
+    pug     = require("gulp-pug"),
+    sync    = require("browser-sync");
+
+gulp.task("compileHtml", function() {
+
+    return gulp.src(["${1:src/template/*.pug}"])
+        .pipe(pug({pretty:true}))
+        .pipe(gulp.dest("${2:src/}"))
+        .pipe(sync.reload({stream:true}))
+});
+
+gulp.task("compileCss", function() {
+
+    return gulp.src(["${3:src/style/sass/*.sass}"])
+        .pipe(sass().on("error", sass.logError))
+        .pipe(gulp.dest("${4:src/style}"))
+        .pipe(sync.reload({stream:true}))
+
+});
+
+
+gulp.task("pagesync", function() {
+
+    sync({
+
+        server:{
+            baseDir:"${5:./}",
+            directory: true
+        }
+
+    });
+});
+
+
+gulp.task("default", ["pagesync", "compileHtml", "compileCss"], function() {
+
+    gulp.watch("${6:src/template/*.pug}", ["compileHtml"]);
+    gulp.watch("${7:src/style/sass/*.sass}", ["compileCss"]);
+});
+]]>
+    </content>
+    <tabTrigger>gulp3</tabTrigger>
+    <scope>source.js, source.gulpfile.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+.carousel-item
+  img.d-block.w-100(src='${1}', alt='${2}')
+]]>
+    </content>
+    <tabTrigger>carousel-item</tabTrigger>
+    <scope>text.pug</scope>
+</snippet>

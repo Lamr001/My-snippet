@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+.card
+  img.card-img-top(src='${1}', alt='${2}')
+  .card-body
+    h5.card-title ${2:Card title}
+    p.card-text
+      | ${3:Some quick example text to build on the card title and make up the bulk of the card&apos;s content.}
+    a.btn.btn-primary(href='#') ${4:Go somewhere}
+
+]]>
+    </content>
+    <tabTrigger>card</tabTrigger>
+    <scope>text.pug</scope>
+</snippet>

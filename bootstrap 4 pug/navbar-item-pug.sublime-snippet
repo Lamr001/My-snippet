@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+li.nav-item
+  a.nav-link.text-white.ml-1.pr-4.pl-4(href='') ${1}
+
+]]>
+    </content>
+    <tabTrigger>navbar-item</tabTrigger>
+    <scope>text.pug</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+nav#navbar-scroll.navbar.navbar-dark.navbar-expand-md.fixed-top.text-white
+  .container
+    a.navbar-brand.text-white.m-2.m-md-0(href='#') ${1}
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#nav-toggler', aria-controls='nav-toggler', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #nav-toggler.collapse.navbar-collapse
+      ul.navbar-nav.nav-pills.nav-fill.ml-auto
+        li.nav-item
+          a.nav-link.text-white.ml-1.pr-4.pl-4(href='') ${2}
+         ${3}
+                      
+
+]]>
+    </content>
+    <tabTrigger>navbar</tabTrigger>
+    <scope>text.pug</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<li class="nav-item"><a class="nav-link text-white ml-1 pr-4 pl-4" href="">${1}</a></li>
+]]>
+    </content>
+    <tabTrigger>navbar-item</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

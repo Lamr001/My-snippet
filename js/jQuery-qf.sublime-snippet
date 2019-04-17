@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$(${1:document}).${2:ready}(function(${3}) {
+    ${4}
+});
+]]>
+    </content>
+    <tabTrigger>qf</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
